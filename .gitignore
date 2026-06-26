@@ -1,0 +1,23 @@
+# This file tells git (the tool that saves versions of your work) which
+# files to keep private and NOT share. You almost never need to edit it.
+
+# Your secret keys. NEVER share this file. This keeps it private.
+# (The .env.example file is safe and IS shared, it's just a template.)
+.env
+.env.local
+.env.*.local
+
+# Your personal, private notes (if you ever make a CLAUDE.local.md)
+CLAUDE.local.md
+
+# Local progress tracking for the /start-here guide
+.start-here-state.json
+
+# Files your computer creates automatically (you can ignore these)
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings
+.vscode/*
+!.vscode/extensions.json
