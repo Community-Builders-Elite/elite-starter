@@ -129,11 +129,16 @@ Say: "Now your folders. There are three main ones, and the idea is simple so not
 **Step 5: The index files.**
 Say: "Each of those folders has a file called _master-index.md. It's just a table of contents for that folder. I keep it updated so you can always find your stuff. You don't have to touch it."
 
-**Step 6: Why this works.**
+**Step 6: Do it for real (this is the important part).**
+Have them actually use the system, not just look at it. Two small actions:
+1. Say: "Let's save a real note. Tell me any idea or thing you're thinking about for your business, even one sentence." When they do, save it to the `research` folder as a small dated file and update that folder's `_master-index.md`. Then tell them plainly: "Saved it to your research folder and added it to the index. That's how nothing gets lost."
+2. Say: "Now let's save a memory, the long-term kind. Tell me one thing you always want me to remember about how you work. Like 'always keep my emails short.'" When they do, save it as a memory and confirm: "Got it. I'll remember that from now on."
+
+**Step 7: Why this works.**
 Say: "That's the whole system. A library, a scratchpad, finished work, plus your brain and your project list. Simple on purpose. You don't need anything fancier."
 
-**Step 7: Win.**
-Say: "Now you know how I remember things and where everything lives. That's Lesson 4 done."
+**Step 8: Win.**
+Say: "You just saved a note AND a memory, the right way. Now you know how I remember things and where everything lives. That's today done."
 
 Mark done, offer Lesson 5.
 
@@ -141,7 +146,7 @@ Mark done, offer Lesson 5.
 
 ## Lesson 5: Skills
 
-**Goal:** the coach knows what a skill is, runs one, and adds a new one (the skill-creator plugin) so they've installed one once.
+**Goal:** the coach knows what a skill is, runs one, installs the skill-creator helper, and CREATES their own first skill (a /recap call summarizer). Creating their own is the real win. They describe what they want in plain English and the skill gets built for them, no code typing.
 
 **Step 1: What a skill is.**
 Say: "A skill is a shortcut. You type a slash command, a word that starts with a slash like /start-here, and I do a whole job for you. Instead of explaining what you want every time, you just trigger the skill."
@@ -150,24 +155,35 @@ Say: "A skill is a shortcut. You type a slash command, a word that starts with a
 Say: "Think of skills as buttons for things you do over and over. Your kit comes with a couple already. As you go through the program, you'll get more that do bigger jobs."
 
 **Step 3: See what you have.**
-Say: "Want to see your skills? Just ask me, 'what skills do I have?' Try it." List them plainly when asked. Point out /start-here and /setup-coach.
+Say: "Want to see your skills? Just ask me, 'what skills do I have?' Try it." List them plainly when asked. Point out /start-here and /setup-coach. Add: "You've already used one, /start-here, that's how you got here."
 
-**Step 4: You've already used one.**
-Say: "You've actually already run a skill, /start-here, that's how you got here. So you've got the idea: type the slash command, I do the work."
+**Step 4: Install the skill helper.**
+Say: "Now the fun part. We're going to make YOUR OWN skill today. First we add a free helper from the company behind Claude that makes building skills easy."
+Walk them through it, two steps, waiting after each:
+- "Add the place these helpers live. Type this: /plugin marketplace add anthropics/claude-plugins"
+- "Then add the helper. Type this: /plugin install skill-creator@claude-plugins-official"
+Say: "If a command has changed and something looks off, no worries, that's not your fault. Tell me what you see and I'll find the right one with you."
 
-**Step 5: Add a new one.**
-Say: "Here's something cool. You can add skills that other people built. The company behind Claude has an official one called skill-creator that helps you build your own skills later on."
-Walk them through it, two steps:
-- "First, add the place those skills live. Type this: /plugin marketplace add anthropics/claude-plugins"
-- "Then add the skill itself. Type this: /plugin install skill-creator@claude-plugins-official"
-Say: "Give it a try. If a command has changed and something looks off, no worries, tell me what you see and I'll find the right one with you."
-Be patient. If it installs, celebrate it. If not, reassure them and help.
+**Step 5: Create their first skill (the big moment).**
+Explain the magic: "Here's the cool part. You don't write any code. You just tell me what you want the skill to do, in plain words, and I build it for you."
+Say: "Let's make a handy one: a call summarizer. After a coaching call, you paste in your notes and it gives you a clean summary with action items. We'll call it /recap."
+Then actually build it. Create a real skill file at `.claude/skills/recap/SKILL.md` with simple frontmatter (a name and a clear description) and plain instructions: take the notes or transcript the coach pastes in, return a short summary plus a clear list of action items. Tell them as you do it: "I'm creating your skill now. Give me one second."
+When it's made, say: "Done. You just made your first skill, /recap. Let's test it."
 
-**Step 6: The takeaway.**
-Say: "You never have to memorize skills or commands. Just tell me what you're trying to do, and I'll tell you if there's a skill for it or help you run it."
+**Step 6: Test it for real.**
+Say: "Paste in some notes from a recent call, even rough ones, or make up a few lines, and then type /recap." Run their new skill on what they give you. Show them the clean summary and action items it produces. Celebrate: "That's a tool YOU built, working."
 
-**Step 7: Win.**
-Say: "You ran a skill and added a new one. That's Lesson 5 done."
+**Step 7: Save their work.**
+Say: "Let's save it the way you learned. Just say 'save my work,' and I'll back up your new skill to GitHub." Do the commit and push for them.
+
+**Step 8: Set the expectation about good skills.**
+Say: "Quick but important note. The one we just made is a very simple example. Normally, you want to give a skill as much information and context as you can, literally step by step, with as much detail as possible. The better the prompt, the better the skill. So when you build a real one, don't be shy, tell me exactly how you'd do the task yourself, every step, and the skill will be that much better."
+
+**Step 9: Show the pattern repeats.**
+Say: "Here's the best part. You can make a skill for almost anything you do over and over, the same way. Just describe it in detail. For example, you could make a /youtube-script skill that helps you outline a video, or a skill that cleans up your notes. Whenever you catch yourself repeating a task, tell me, 'let's make a skill for this.'"
+
+**Step 10: Win.**
+Say: "You installed a helper AND built your own working skill. That's a big one. Today done."
 
 Mark done, offer Lesson 6.
 
@@ -230,10 +246,14 @@ Teach these one at a time, short.
 - "Be clear about what you want. The clearer your ask, the fewer tries it takes. 'Write me a 3 sentence Instagram caption about X' beats 'write me something.'"
 - "Use the right effort for the job. Quick tasks don't need deep thinking. Big ones do. You can just tell me 'keep it quick' or 'really think about this.'"
 
-**Step 3: The mindset.**
+**Step 3: Practice one habit right now.**
+Have them do it, don't just tell them. Say: "Let's practice the biggest one. Give me one clear, specific ask, like 'write a 3 sentence welcome message for a new client.' Notice how a clear ask gets you a better answer the first time." Run their ask and point out: "See? Clear in, good out. That's the habit that saves the most."
+Then say: "And remember, when you switch to something totally different next time, start a fresh conversation. Cleaner and cheaper. You don't have to do that now, just remember it."
+
+**Step 4: The mindset.**
 Say: "The goal isn't to be cheap, it's to not waste. Treat me like a smart assistant whose time is worth a little something. Clear asks, fresh starts, a good brain file. That's the whole game."
 
-**Step 4: Win.**
-Say: "Now you know how to keep your costs low and your results high. That's Lesson 7 done, and that's the whole starter course."
+**Step 5: Win.**
+Say: "You practiced the habit that matters most. Now you know how to keep your costs low and your results high. That's the whole starter course, done."
 
 Mark done. Print the "You did it" finish message from the SKILL.md.

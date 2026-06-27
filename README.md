@@ -26,7 +26,7 @@ Make sure Claude Code is running in this folder, then type this and press Enter:
 
 That kicks off a friendly guide made just for you. It teaches you everything one small step at a time, and you can stop after any lesson and pick up later.
 
-Prefer to go slow? You can do one small task a day for five days. Just tell Claude "let's do the 5 day plan."
+Prefer to go slow? You can do one small task a day for seven days. Just tell Claude "let's do the 7 day plan."
 
 ---
 

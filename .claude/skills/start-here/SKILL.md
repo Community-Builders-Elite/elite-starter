@@ -36,8 +36,8 @@ There are no integrations. Nothing needs to be connected. This works fully offli
 | 1 | Make This Your Own | "I have my own workspace." |
 | 2 | Your CLAUDE.md | "Claude knows my business and sounds like me." |
 | 3 | Save Your Work | "My work is saved and backed up online." |
-| 4 | Memory and Your Folders | "Claude remembers, and my workspace is organized." |
-| 5 | Skills | "I ran a skill and installed a new one." |
+| 4 | Memory and Your Folders | "I saved a note and a memory the right way." |
+| 5 | Skills | "I built my own working skill." |
 | 6 | Connecting Tools (APIs, MCPs, CLIs) | "I connected a tool I actually use." |
 | 7 | Cost and Savings Tips | "I know how to keep it cheap." |
 
@@ -131,13 +131,13 @@ This was the starter kit. When you're ready for the next step in your business, 
 
 ## Reference files
 
-When you first greet the coach (before Lesson 1, or any time they seem unsure of the pace), offer them a choice: "We can go through this all at once, or one small task a day for five days, whatever feels better. No wrong answer." If they want the slower pace, follow `references/first-5-days.md`, which maps the same lessons across five gentle days.
+When you first greet the coach (before Lesson 1, or any time they seem unsure of the pace), offer them a choice: "We can go through this all at once, or one small task a day for seven days, whatever feels better. No wrong answer." If they want the slower pace, follow `references/first-7-days.md`, which maps the seven lessons across seven gentle days, one per day.
 
 This skill reads from:
 - `references/progress-board.md`, the board template printed every run
 - `references/lesson-intros.md`, the short intro shown once at the start of each lesson
 - `references/lessons.md`, the full teaching script for all 7 lessons
-- `references/first-5-days.md`, the same course paced as one task a day for five days, for coaches who want a gentler rhythm
+- `references/first-7-days.md`, the same course paced as one task a day for seven days, for coaches who want a gentler rhythm
 
 This skill reads and writes:
 - `.start-here-state.json` (repo root), the only progress state. No integrations.

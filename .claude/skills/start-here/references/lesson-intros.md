@@ -38,9 +38,9 @@ Two simple ideas: long-term memory, and a clean home for your files. We'll look 
 
 ## Lesson 5: Skills
 
-Time to learn about skills.
+Time for the fun one. Today you build your own skill.
 
-A skill is a shortcut. You type a slash command, like /start-here, and I do a whole job for you. This lesson shows you what they are, how to run one, and how to add a new one.
+A skill is a shortcut. You type a slash command, like /start-here, and I do a whole job for you. By the end of this lesson, you'll have made your very own, and no, you won't write any code. You'll just tell me what you want.
 
 ---
 
