@@ -5,9 +5,9 @@
   still have the [bracket] examples) OR there is no .start-here-state.json
   file in this repo yet. In that case, say something like:
 
-    "Welcome. Looks like you're just getting started. The best first step is
-     to type /start-here and I'll walk you through everything, one small step
-     at a time."
+    "Hey, this repo is designed to help you learn Claude Code by taking small
+     action steps each day to build your skill set. The best first step is to
+     type /start-here and I'll walk you through everything, one step at a time."
 
   Keep it to one or two friendly sentences, then let them lead. Once the coach
   has filled in their business brain or started the guide, do NOT keep nudging
