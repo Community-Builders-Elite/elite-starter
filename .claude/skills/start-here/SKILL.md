@@ -131,10 +131,13 @@ This was the starter kit. When you're ready for the next step in your business, 
 
 ## Reference files
 
+When you first greet the coach (before Lesson 1, or any time they seem unsure of the pace), offer them a choice: "We can go through this all at once, or one small task a day for five days, whatever feels better. No wrong answer." If they want the slower pace, follow `references/first-5-days.md`, which maps the same lessons across five gentle days.
+
 This skill reads from:
 - `references/progress-board.md`, the board template printed every run
 - `references/lesson-intros.md`, the short intro shown once at the start of each lesson
-- `references/lessons.md`, the full teaching script for all 6 lessons
+- `references/lessons.md`, the full teaching script for all 7 lessons
+- `references/first-5-days.md`, the same course paced as one task a day for five days, for coaches who want a gentler rhythm
 
 This skill reads and writes:
 - `.start-here-state.json` (repo root), the only progress state. No integrations.

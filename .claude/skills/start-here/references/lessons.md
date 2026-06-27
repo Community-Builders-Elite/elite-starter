@@ -12,43 +12,33 @@ A note on exact commands: command names can change over time. If a command in th
 
 ## Lesson 1: Make This Your Own
 
-**Goal:** the coach ends up with their OWN copy of this kit (their own repo on their own GitHub), open on their computer. A "repo" is just a project folder that can be saved online.
+**Goal:** confirm the coach is working in their OWN copy of this kit, open on their computer. Most coaches arrive here already set up, because the classroom walked them through getting their own copy before they ever opened the repo. So this lesson is usually a quick confirmation, not a big task. A "repo" is just a project folder.
 
-**Step 1: What a repo is.**
-Say: "First, a quick word. A repo is just a project folder. That's it. The fancy name is short for repository. Right now you might be looking at the shared starter kit. We want to make YOUR own copy so you can change it freely without touching the original."
+**Step 1: Confirm they're in their own copy.**
+Say: "Quick check before we dive in. If you're reading this inside VS Code on your computer, you almost certainly already have your own copy, nice work. A repo, by the way, is just a project folder. This one is yours."
+Ask: "Did you follow the setup steps to make your own copy of the kit, or do you think you might still be in the shared one? If you're not sure, just say so and I'll help."
+- If they're set up (the normal case), go to Step 2.
+- If they have NOT made their own copy yet, or aren't sure, go to the Fallback below.
 
-**Step 2: Check where they are.**
-Ask: "Quick question: did you already make your own copy of this kit, or are you in the original shared one? If you're not sure, that's fine, just say so."
-- If they already have their own copy, say great, and skip to Step 5.
-- If not, or unsure, go to Step 3.
+**Step 2: Reassure and move on.**
+Say: "Perfect. From now on, this is YOUR workspace. Anything you change here is yours, and you can't hurt the original. Let's get going."
 
-**Step 3: Make your own copy on GitHub.**
-Tell them we'll use a one-click GitHub feature to make a fresh copy in their account. Walk them through it slowly, one step at a time. Wait for them after each one.
-1. "Open your web browser and go to: github.com/Community-Builders-Elite/elite-starter"
-2. "In the top right, find the green button that says Use this template. Click it, then click Create a new repository."
-3. "Give it a name, something simple like your business name. Then click Create repository. GitHub just made your very own copy. Nice work."
-
-**Step 4: Bring your copy onto your computer (clone it).**
-Say: "Your copy lives online right now. Let's get it onto your computer so we can work in it. This is called cloning, which just means downloading your own copy. We'll use a free app called GitHub Desktop, no typing required."
-Then walk them through it, one step at a time, waiting after each:
-1. "First, if you don't have GitHub Desktop yet, get it free from desktop.github.com and install it. Sign in with the same GitHub account you made earlier."
-2. "Go back to your new repo's page in your browser. Click the green Code button."
-3. "Click Open with GitHub Desktop. Your browser may ask if it's okay to open the app, say yes."
-4. "GitHub Desktop will ask where to save it on your computer. Documents is a fine choice. Then click Clone."
-5. "That's it. You now have your own folder on your computer with all your files in it."
-
-**Step 5: Open it in VS Code and come back.**
-Say: "Last bit. Let's open your new folder in VS Code so I can see your files. In GitHub Desktop, click Open in Visual Studio Code. Or in VS Code, click File, then Open Folder, and pick the folder you just cloned."
-Then: "Once it's open in VS Code, start Claude there and type /start-here again. You'll be in YOUR repo now, and we'll pick right up."
-Note for Claude: the coach may be running this lesson from the shared kit or from a video, so they might leave to do this and return in their own repo. That's expected and good. Welcome them back warmly when they return in their own copy.
-
-**Step 6: Confirm and reassure.**
-Say: "From now on, this is YOUR workspace. Anything you change here is yours. You can't hurt the original. Let's keep going."
-
-**Step 7: Win.**
-Say: "You've got your own workspace on your computer now. That's the techy part behind you, and Lesson 1 done."
+**Step 3: Win.**
+Say: "You're set up in your own workspace. That's Lesson 1 done, and the rest is the fun part."
 
 Mark done, offer Lesson 2.
+
+---
+
+**Fallback (only if they have NOT made their own copy yet):**
+Walk them through it slowly, one step at a time, waiting after each. This mirrors the classroom setup steps.
+1. "Open your web browser and go to: github.com/Community-Builders-Elite/elite-starter"
+2. "In the top right, click the green Use this template button, then Create a new repository. Name it your business name and click Create repository. That's your own copy, made online."
+3. "Get GitHub Desktop, a free app, from desktop.github.com, and install it. Sign in with your GitHub account."
+4. "Back on your new repo's page, click the green Code button, then Open with GitHub Desktop. Say yes if your browser asks to open the app."
+5. "Pick where to save it (Documents is fine) and click Clone. Now it's on your computer."
+6. "Open the folder in VS Code (File, then Open Folder), start Claude there, and type /start-here again. You'll be in your own copy, and we'll pick right up."
+Then continue from Step 2 above.
 
 ---
 
