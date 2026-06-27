@@ -42,13 +42,16 @@ Go to **docs.claude.com/claude-code** and follow the install steps for your comp
 
 ### 4. Get your own copy of this kit
 
-Right now you're looking at the starter kit. You want your OWN copy to work in, so you don't change the original.
+Right now you're looking at the starter kit. You want your OWN copy to work in, so you don't change the original. Here's how, no typing required:
 
-The easiest way: open VS Code, start Claude Code (see the next section), and just say:
+1. Go to **github.com/Community-Builders-Elite/elite-starter** in your browser.
+2. Click the green **Use this template** button (top right), then **Create a new repository**. Name it your business name and click **Create repository**. That makes your own copy online.
+3. Get GitHub Desktop, a free app, from **desktop.github.com**, and install it. Sign in with your GitHub account.
+4. On your new repo's page, click the green **Code** button, then **Open with GitHub Desktop**.
+5. Pick where to save it (Documents is fine), then click **Clone**. Now it's on your computer.
+6. Open the folder in VS Code (File, then Open Folder), and you're ready.
 
-> "Help me make my own copy of this starter kit and connect it to my GitHub."
-
-Claude will walk you through it, step by step. You don't have to figure it out alone.
+Don't worry if a step trips you up. Once Claude Code is running, you can ask it for help with any of this.
 
 ---
 

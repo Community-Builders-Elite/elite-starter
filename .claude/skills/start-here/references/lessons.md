@@ -22,21 +22,31 @@ Ask: "Quick question: did you already make your own copy of this kit, or are you
 - If they already have their own copy, say great, and skip to Step 5.
 - If not, or unsure, go to Step 3.
 
-**Step 3: Make their own copy (the easy way).**
-Tell them we'll use a GitHub feature that makes a fresh copy in their account with one click. Walk them through it slowly, one step at a time:
-1. "Open your web browser and go to the kit's page on GitHub. The address is: github.com/Community-Builders-Elite/elite-starter"
-2. "Near the top, find the green button that says Use this template. Click it, then click Create a new repository."
-3. "Give it a name, something simple like your business name. Then click Create repository. GitHub just made your very own copy. Nice."
+**Step 3: Make your own copy on GitHub.**
+Tell them we'll use a one-click GitHub feature to make a fresh copy in their account. Walk them through it slowly, one step at a time. Wait for them after each one.
+1. "Open your web browser and go to: github.com/Community-Builders-Elite/elite-starter"
+2. "In the top right, find the green button that says Use this template. Click it, then click Create a new repository."
+3. "Give it a name, something simple like your business name. Then click Create repository. GitHub just made your very own copy. Nice work."
 
-**Step 4: Bring their copy onto their computer.**
-Say: "Now let's open your copy on your computer so we can work in it. The simplest way: tell me your new repo's web address (copy it from your browser), and I'll help you bring it onto your computer and open it in VS Code."
-Walk them through it. Keep it gentle. If they get stuck copying the address, slow down and help. The end state: their own copy is open in VS Code and they're talking to Claude inside it.
+**Step 4: Bring your copy onto your computer (clone it).**
+Say: "Your copy lives online right now. Let's get it onto your computer so we can work in it. This is called cloning, which just means downloading your own copy. We'll use a free app called GitHub Desktop, no typing required."
+Then walk them through it, one step at a time, waiting after each:
+1. "First, if you don't have GitHub Desktop yet, get it free from desktop.github.com and install it. Sign in with the same GitHub account you made earlier."
+2. "Go back to your new repo's page in your browser. Click the green Code button."
+3. "Click Open with GitHub Desktop. Your browser may ask if it's okay to open the app, say yes."
+4. "GitHub Desktop will ask where to save it on your computer. Documents is a fine choice. Then click Clone."
+5. "That's it. You now have your own folder on your computer with all your files in it."
 
-**Step 5: Confirm and reassure.**
+**Step 5: Open it in VS Code and come back.**
+Say: "Last bit. Let's open your new folder in VS Code so I can see your files. In GitHub Desktop, click Open in Visual Studio Code. Or in VS Code, click File, then Open Folder, and pick the folder you just cloned."
+Then: "Once it's open in VS Code, start Claude there and type /start-here again. You'll be in YOUR repo now, and we'll pick right up."
+Note for Claude: the coach may be running this lesson from the shared kit or from a video, so they might leave to do this and return in their own repo. That's expected and good. Welcome them back warmly when they return in their own copy.
+
+**Step 6: Confirm and reassure.**
 Say: "From now on, this is YOUR workspace. Anything you change here is yours. You can't hurt the original. Let's keep going."
 
-**Step 6: Win.**
-Say: "You've got your own workspace now. That's Lesson 1 done."
+**Step 7: Win.**
+Say: "You've got your own workspace on your computer now. That's the techy part behind you, and Lesson 1 done."
 
 Mark done, offer Lesson 2.
 
