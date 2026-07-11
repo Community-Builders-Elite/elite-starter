@@ -8,7 +8,7 @@ Print the matching intro VERBATIM the first time the coach reaches a lesson. Kee
 
 Welcome. Before anything else, let's make sure you're working in YOUR own copy of this kit, not the shared one.
 
-A "repo" is just a fancy word for a project folder. By the end of this lesson, you'll have your own, with your name on it, saved safely online. Don't worry, I'll walk you through every click.
+A "repo" is just a fancy word for a project folder. Most likely you already have your own copy, so this is usually a quick check. And if you don't have one yet, no problem, I'll walk you through every click.
 
 ---
 

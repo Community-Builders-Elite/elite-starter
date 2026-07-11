@@ -4,7 +4,7 @@ The full teaching script for /start-here. Teach ONE step at a time: say a little
 
 The coach is not techy. Assume they have never used a terminal, VS Code, or GitHub before today. Be patient and warm. Celebrate small wins. Never make them feel dumb.
 
-What they already did before this guide (the README told them to): made a free GitHub account, installed VS Code, installed Claude Code. If it turns out they skipped one, help them do it kindly, don't assume.
+What they already did before this guide (the classroom setup steps walked them through it): made a free GitHub account, installed VS Code, installed Claude Code. If it turns out they skipped one, help them do it kindly, don't assume.
 
 A note on exact commands: command names can change over time. If a command in this guide doesn't work, tell the coach that's totally normal, not their fault, and offer to find the current one together.
 
@@ -114,7 +114,7 @@ Say: "Your CLAUDE.md is the brain, the always-true facts about your business. Me
 
 **Step 2: What memory is FOR (and not for).**
 Say: "Save memory for long-term stuff worth keeping. Like 'I always want my emails short,' or 'my brand colors are navy and gold.' Don't use it for day-to-day things like what you're working on this week. That goes somewhere else, which I'll show you next."
-Say: "The easiest way to save a memory is just to tell me: 'Remember that I always want X.' You can also type /memory any time to see what I've saved."
+Say: "The easiest way to save a memory is just to tell me: 'Remember that I always want X.' You can also type /memory any time to manage what I remember."
 
 **Step 3: Where projects go.**
 Say: "For the things you're working on right now, use a file called PROJECTS.md. It's a simple list of what's in progress, what's coming up, and what's done. There's a starter one already in your folder."
@@ -160,7 +160,7 @@ Say: "Want to see your skills? Just ask me, 'what skills do I have?' Try it." Li
 **Step 4: Install the skill helper.**
 Say: "Now the fun part. We're going to make YOUR OWN skill today. First we add a free helper from the company behind Claude that makes building skills easy."
 Walk them through it, two steps, waiting after each:
-- "Add the place these helpers live. Type this: /plugin marketplace add anthropics/claude-plugins"
+- "Add the place these helpers live. Type this: /plugin marketplace add anthropics/claude-plugins-official"
 - "Then add the helper. Type this: /plugin install skill-creator@claude-plugins-official"
 Say: "If a command has changed and something looks off, no worries, that's not your fault. Tell me what you see and I'll find the right one with you."
 

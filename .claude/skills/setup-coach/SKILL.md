@@ -1,7 +1,6 @@
 ---
 name: setup-coach
-description: Interviews a coach about their business and fills in their CLAUDE.md (their "business brain") from the answers. Asks a few short questions one at a time, or lets the coach paste an existing CLAUDE.md or business doc. Writes everything into the CLAUDE.md template in plain language, in the coach's own voice. Use when the coach says "/setup-coach", "set up my CLAUDE.md", "fill in my business brain", "help me write my CLAUDE.md", "update my business info", or when /start-here Lesson 1 hands off to it.
-user_invocable: true
+description: Interviews a coach about their business and fills in their CLAUDE.md (their "business brain") from the answers. Asks a few short questions one at a time, or lets the coach paste an existing CLAUDE.md or business doc. Writes everything into the CLAUDE.md template in plain language, in the coach's own voice. Use when the coach says "/setup-coach", "set up my CLAUDE.md", "fill in my business brain", "help me write my CLAUDE.md", "update my business info", or when /start-here Lesson 2 hands off to it.
 ---
 
 > **ABSOLUTE RULE: NO DASHES FOR PUNCTUATION.** Never use em dashes, en dashes, or double hyphens (--) as punctuation anywhere in your output. Use commas, periods, or rewrite the sentence. No exceptions.
@@ -48,6 +47,19 @@ Ask these ONE AT A TIME. Wait for each answer before asking the next. Keep your 
 5. "Anything you NEVER want me to do? For example, never use hype, never use emojis, never promise overnight results."
 6. "Do you run a community, like a Skool or Facebook group? If yes, tell me the name and how people join. If not, just say no."
 
+### Step 3c: Offer to go deeper (optional round)
+
+After the core six, say: "That's the essentials done. Want to answer four more questions? They make your content noticeably better, especially your proof and your customer's language. Totally fine to skip and add later."
+
+If yes, ask these ONE AT A TIME:
+
+7. "What results can you truthfully claim? Real numbers only: revenue, client results, awards, years doing this. And just as important, is there anything you're NOT allowed to claim or don't want claimed?"
+8. "What exact words do your customers use when they describe their problem? Think of what they say in DMs, on calls, or in their first message to you."
+9. "Has an assistant, a team member, or an AI ever gotten something wrong for you that really bugged you? What was it?" (Their answer becomes a rule in My Rules for Claude.)
+10. "What's something about your business I'd only figure out after working with you for a month?"
+
+Fold answers 7 and 8 into **My Proof** and **Who I Help**. Turn answers 9 and 10 into rules or notes in **My Rules for Claude**.
+
 ### Step 4: Write the file
 
 Open the existing `CLAUDE.md` in the repo root (it ships with the starter template). Replace the bracketed placeholders in each section with the coach's real words:
@@ -57,8 +69,15 @@ Open the existing `CLAUDE.md` in the repo root (it ships with the starter templa
 - **My Offer** ← question 2
 - **My Big Promise** ← question 3
 - **My Voice** ← question 4 (how they sound, phrases they use, things they never say)
-- **My Rules for Claude** ← question 5 (add their rules to the existing default rules, don't delete the defaults)
+- **My Proof** ← question 7 if they did the deeper round (what they can claim, what they can never claim). If they skipped it, leave the section's placeholders in place for later.
+- **My Rules for Claude** ← questions 5, 9, and 10 (add their rules to the existing default rules, don't delete the defaults)
 - **If I Run a Community** ← question 6 (fill it in, or delete the section if they said no)
+
+Make sure this rule stays in **My Rules for Claude** (the template ships with it, never remove it):
+
+> "When I correct you or tell you a preference, ask me if it should be added to this file."
+
+This is how the file keeps getting better after today. Corrections become permanent rules.
 
 Keep their voice. Do not corporate-ify their words or add hype. Write it the way they said it. Remove the `<!-- comment -->` helper notes from any section you fully filled in, since they don't need the instructions anymore once it's done. Save the file.
 
@@ -83,8 +102,9 @@ The repo ships a `CLAUDE.md` with these sections. Fill these in, keep this order
 3. `## My Offer`
 4. `## My Big Promise`
 5. `## My Voice`
-6. `## My Rules for Claude`
-7. `## If I Run a Community (optional)`
+6. `## My Proof (optional)`
+7. `## My Rules for Claude`
+8. `## If I Run a Community (optional)`
 
 If for some reason the file is missing, recreate it with these sections before filling them.
 

@@ -1,8 +1,8 @@
 <!--
   NOTE TO CLAUDE (not the coach): When a session starts in this repo and the
   coach appears to be new, greet them warmly and point them to the guide.
-  "New" means EITHER the business sections below are still unfilled (they
-  still have the [bracket] examples) OR there is no .start-here-state.json
+  "New" means BOTH the business sections below are still unfilled (they
+  still have the [bracket] examples) AND there is no .start-here-state.json
   file in this repo yet. In that case, say something like:
 
     "Hey, this repo is designed to help you learn Claude Code by taking small
@@ -105,6 +105,20 @@
 
 ---
 
+## My Proof (optional)
+
+<!--
+  What can you truthfully claim? Real numbers only. This is what Claude will
+  use when your content needs credibility, and just as important, what it
+  will refuse to exaggerate.
+-->
+
+**What I can claim:** [Example: Helped 120+ moms lose weight. 8 years coaching. Certified nutrition coach.]
+
+**What I never claim:** [Example: Never promise a specific number of pounds. Never mention client names without permission.]
+
+---
+
 ## My Rules for Claude
 
 <!--
@@ -116,6 +130,7 @@
 - Always write the way I do in the "My Voice" section above.
 - Never make up facts, results, or testimonials. If you don't know, ask me.
 - Keep it simple. I'd rather have something clear than something clever.
+- When I correct you or tell you a preference, ask me if it should be added to this file.
 - [Add your own rule here.]
 
 ---

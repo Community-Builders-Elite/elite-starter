@@ -13,4 +13,6 @@ One file per day:
 - `day-6.md` Connect a Tool You Use
 - `day-7.md` Keep Your Costs Low (and Practice It)
 
-The matching in-repo guide is `/start-here`. The one-page overview version is `.claude/skills/start-here/references/first-7-days.md`.
+`course-overview.md` is the paste-ready overview post for the top of the Skool course (the "here's your week at a glance" lesson).
+
+The matching in-repo guide is `/start-here`. The one-page overview the skill reads from is `.claude/skills/start-here/references/first-7-days.md`.

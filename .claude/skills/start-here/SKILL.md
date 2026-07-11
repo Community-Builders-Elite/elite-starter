@@ -1,7 +1,6 @@
 ---
 name: start-here
-description: The friendly guide that walks a brand-new coach through learning Claude Code, one lesson at a time. Stateless. Every run it checks which lessons are done, shows a simple progress board, and teaches the next lesson inline (it does NOT hand off to other skills, except /setup-coach). Use when the coach says "/start-here", "start", "I'm new", "what do I do", "help", "where do I begin", "next lesson", or opens the repo for the first time and is unsure what to do.
-user_invocable: true
+description: The friendly guide that walks a brand-new coach through learning Claude Code, one lesson at a time. Stateless. Every run it checks which lessons are done, shows a simple progress board, and teaches the next lesson inline (it does NOT hand off to other skills, except /setup-coach). Use when the coach says "/start-here", "start", "I'm new", "what do I do", "help", "where do I begin", "next lesson", "let's do day 1" (or any "let's do day N", the classroom lessons teach this exact phrase, day N maps to lesson N), "the 7 day plan", "day plan", or opens the repo for the first time and is unsure what to do.
 ---
 
 > **ABSOLUTE RULE: NO DASHES FOR PUNCTUATION.** Never use em dashes, en dashes, or double hyphens (--) as punctuation anywhere in your output. Use commas, periods, or rewrite the sentence. No exceptions.
@@ -22,7 +21,7 @@ This skill is **stateless**. It does not keep a running memory of the conversati
 
 1. **Check progress** by reading the local file `.start-here-state.json` in the repo root.
 2. **Print the progress board** so the coach sees the whole path and where they are.
-3. **Teach the next lesson inline**, conversationally, having the coach DO each step. The lesson content lives in `references/lessons.md`. This skill never hands a lesson off to another skill. (The one exception: Lesson 1 invites the coach to run `/setup-coach`, which is a real separate skill.)
+3. **Teach the next lesson inline**, conversationally, having the coach DO each step. The lesson content lives in `references/lessons.md`. This skill never hands a lesson off to another skill. (The one exception: Lesson 2 invites the coach to run `/setup-coach`, which is a real separate skill.)
 4. **Mark the lesson done** and ask if they want to keep going.
 
 There are no integrations. Nothing needs to be connected. This works fully offline so a beginner can never hit a wall.
@@ -144,7 +143,7 @@ This skill reads and writes:
 
 ## What this skill never does
 
-- Hand a lesson off to another skill (except inviting the coach to run `/setup-coach` in Lesson 1).
+- Hand a lesson off to another skill (except inviting the coach to run `/setup-coach` in Lesson 2).
 - Require any tool, API, or account to be connected.
 - Push the coach to go faster than they want.
 - Use dashes as punctuation.
