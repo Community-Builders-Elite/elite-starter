@@ -30,6 +30,14 @@ Prefer to go slow? You can do one small task a day for seven days. Just tell Cla
 
 ---
 
+## Hit a word you don't know?
+
+Type `/explain` and the word. Like `/explain repo` or `/explain mcp`. You get a short, plain answer and you go right back to what you were doing.
+
+Every word is also written down in `classroom/claude-101/claude-code-faq.md` if you'd rather read than ask.
+
+---
+
 ## You can't break anything
 
 Really. Click around, try things, ask questions. If you ever get stuck, just type your question to Claude in plain words, like "what does this do?" or "I'm confused, help me."
